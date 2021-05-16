@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
+@import "~normalize.css";
+@import "~@blueprintjs/core/lib/css/blueprint.css";
+@import "~@blueprintjs/icons/lib/css/blueprint-icons.css";
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#navbar {
+  font-size: medium;
+  position: sticky;
+  top: 0;
+}
+.bp3-navbar-heading{
+  font-weight: 600;
+}
+.bp3-button.bp3-minimal{
+  outline: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav_left{
+  margin-left: auto;
   display: flex;
-  flex-direction: column;
   align-items: center;
+}
+.nav_right{
+  display: flex;
+  align-items: center;
+}
+.opennavbtn{
+  margin-right: 5px;
+
+}
+.drawer{
+  
+}
+.profile{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  flex-direction: column;
+}
+.profile_picture{
+  width: 75px;
+  height: 75px;
+  background-color: rgb(211, 27, 64);
+  border-radius: 50%;
+  margin: 10px;
+}
+.menu{
+  width: inherit;
+}
+.bp3-dark a{
+  color: rgb(153, 153, 153);
+}
+.menu li{
+  margin: 25px 0;
+  width: inherit;
+}
+.menuitems{
+  font-size: medium;
+  height: 50px;
+  color: rgb(153, 153, 153);
+  width: inherit;
+  padding: 10px;
+  border-radius: 2px;
+}
+NavLink{
+  color: rgb(153, 153, 153);
+}
+.menuitems:hover{
   color: white;
+  border-left: 2px solid rgb(207, 253, 0);
+  background-color: rgba(0, 0, 0, 0.171);
+  text-decoration: none;
+}
+.menuitems.active{
+  color: white;
+  border-left: 2px solid rgb(207, 253, 0);
+  background-color: rgba(0, 0, 0, 0.171);
 }
 
-.App-link {
-  color: #61dafb;
+.bal{
+  font-weight: 300;
+  color: black;
+  background-color: rgb(207, 253, 0);
+  padding: 5px;
+  border-radius: 40px;
+  margin: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.p{
+  width: 40px;
+  height: 40px;
+  background-color: rgb(211, 27, 64);
+  border-radius: 50%;
 }
