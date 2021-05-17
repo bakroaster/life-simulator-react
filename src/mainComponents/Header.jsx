@@ -1,5 +1,6 @@
 import React from "react";
 import Sidenav from "./Sidenav";
+import {NavLink} from "react-router-dom"
 import {
   Alignment,
   Button,
@@ -18,7 +19,7 @@ function Header() {
       <Navbar id="navbar" className="bp3-dark">
         <NavbarGroup className="navgroup" align={Alignment.LEFT}>
           <Sidenav />
-          <NavbarHeading>Life-Simulator</NavbarHeading>
+          <NavbarHeading><NavLink className="logo" to="/Home">Life-Simulator</NavLink></NavbarHeading>
           <NavbarDivider />
         </NavbarGroup>
         <NavbarGroup className="navgroup" align={Alignment.RIGHT}>
