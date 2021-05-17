@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/life-simulator-react/static/css/main.7a6cc0d6.chunk.css",
+    "main.js": "/life-simulator-react/static/js/main.17257f2e.chunk.js",
+    "main.js.map": "/life-simulator-react/static/js/main.17257f2e.chunk.js.map",
+    "runtime-main.js": "/life-simulator-react/static/js/runtime-main.e0d9ae2c.js",
+    "runtime-main.js.map": "/life-simulator-react/static/js/runtime-main.e0d9ae2c.js.map",
+    "static/css/2.96e4472e.chunk.css": "/life-simulator-react/static/css/2.96e4472e.chunk.css",
+    "static/js/2.12c83fb8.chunk.js": "/life-simulator-react/static/js/2.12c83fb8.chunk.js",
+    "static/js/2.12c83fb8.chunk.js.map": "/life-simulator-react/static/js/2.12c83fb8.chunk.js.map",
+    "static/js/3.8743dd3b.chunk.js": "/life-simulator-react/static/js/3.8743dd3b.chunk.js",
+    "static/js/3.8743dd3b.chunk.js.map": "/life-simulator-react/static/js/3.8743dd3b.chunk.js.map",
+    "index.html": "/life-simulator-react/index.html",
+    "static/css/2.96e4472e.chunk.css.map": "/life-simulator-react/static/css/2.96e4472e.chunk.css.map",
+    "static/css/main.7a6cc0d6.chunk.css.map": "/life-simulator-react/static/css/main.7a6cc0d6.chunk.css.map",
+    "static/js/2.12c83fb8.chunk.js.LICENSE.txt": "/life-simulator-react/static/js/2.12c83fb8.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/life-simulator-react/static/media/icons-20.cde033c5.eot"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e0d9ae2c.js",
+    "static/css/2.96e4472e.chunk.css",
+    "static/js/2.12c83fb8.chunk.js",
+    "static/css/main.7a6cc0d6.chunk.css",
+    "static/js/main.17257f2e.chunk.js"
+  ]
+}
